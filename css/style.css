@@ -17,7 +17,7 @@
   grid-template-rows: repeat(5, auto);
 }
 
-item:nth-child(even) {
+item:nth-child(odd) {
   background-color: #6495ed;
 }
 
@@ -27,7 +27,7 @@ item:nth-child(even) {
   grid-template-rows: repeat(5, auto);
 }
 
-.item-pink {
+.ui-grid-container-two .item-pink {
   grid-column: 2/6;
   grid-row: 2/4;
   background-color: #ee64a4;
