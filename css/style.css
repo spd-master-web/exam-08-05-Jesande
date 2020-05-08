@@ -4,10 +4,10 @@
 }
 .ui-grid-container-two {
   background-image: url('/images/grid-2.png');
-}*/
+}
 .ui-grid-container-three {
   background-image: url('/images/grid-3.png');
-}
+}*/
 /* your CSS goes here */
 
 .ui-grid-container-one {
@@ -17,7 +17,7 @@
 }
 
 item:nth-child(even) {
-  background-color: rgb(100, 149, 237);
+  background-color: #6495ed;
 }
 
 
@@ -30,5 +30,29 @@ item:nth-child(even) {
 .item-pink {
   grid-column: 2/6;
   grid-row: 2/4;
-  background-color: rgb(238, 100, 164);
+  background-color: #ee64a4;
 }
+
+.ui-grid-container-three {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+item.blue {
+  background-color: #6495ed;
+}
+
+item.pink {
+  background-color: #ee64a4;
+}
+
+.title {
+  font-family: sans-serif;
+  color: #d0186c;
+  font-size: 108px;
+  text-shadow: 2px 2px 0px #ffffff61;
+  position: absolute;
+  bottom: 141px;
+  left: 472px;
+}
+
