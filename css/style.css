@@ -8,6 +8,7 @@
 .ui-grid-container-three {
   background-image: url('/images/grid-3.png');
 }*/
+
 /* your CSS goes here */
 
 .ui-grid-container-one {
@@ -19,7 +20,6 @@
 item:nth-child(even) {
   background-color: #6495ed;
 }
-
 
 .ui-grid-container-two {
   display: grid;
