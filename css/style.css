@@ -35,24 +35,37 @@ item:nth-child(odd) {
 
 .ui-grid-container-three {
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
 
-item.blue {
+.blue {
+  grid-row: 1 / 6;
+  grid-column: 1 / 5;
   background-color: #6495ed;
 }
 
-item.pink {
-  background-color: #ee64a4;
+.pink {
+  grid-row: 1 / 6;
+  grid-column: 5 / 6;
+  background-color: #ed64a4;
 }
 
 .title {
+  grid-row: 4 / 5;
+  grid-column: 3 / 6;
+}
+
+h1 {
+  margin: 0;
+
   font-family: sans-serif;
   color: #d0186c;
-  font-size: 108px;
+  font-size: 7em;
+  line-height: 1em;
   text-shadow: 2px 2px 0px #ffffff61;
-  position: absolute;
+  /* position: absolute;
   bottom: 141px;
-  left: 472px;
+  left: 472px; */
 }
 
